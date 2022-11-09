@@ -1,0 +1,7 @@
+applications:
+- name: stuff-api
+  memory: 726M
+  path: ./build/libs/stuff-api-0.0.1-SNAPSHOT.jar
+  env:
+    JBP_CONFIG_SPRING_AUTO_RECONFIGURATION: '{enabled: false}'
+    JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
